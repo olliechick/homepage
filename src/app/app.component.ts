@@ -26,7 +26,6 @@ export interface Project {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  displayedColumns: string[] = ['description', 'language', 'github'];
   personalProjects: Project[] = [
     {
       github: 'https://github.com/olliechick/codenames',

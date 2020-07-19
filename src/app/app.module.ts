@@ -5,10 +5,12 @@ import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatTableModule} from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
+import { ProjectTableComponent } from './project-table/project-table.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProjectTableComponent
   ],
   imports: [
     BrowserModule,

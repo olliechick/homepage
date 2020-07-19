@@ -1,0 +1,55 @@
+table {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.mat-cell {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.github-button {
+  margin-left: 20px;
+  background-size: contain;
+  background-color: white;
+  background-image: url(https://user-images.githubusercontent.com/6047072/87868962-7aa19d00-c9ef-11ea-92e7-23813ee94ca2.png);
+}
+
+.lang {
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  text-align: center;
+}
+
+.python {
+  background-color: #8dff91;
+  border-color: #8dff91;
+}
+
+.javascript, .typescript {
+  background-color: #fffc34;
+  border-color: #fffc34;
+}
+
+.shell {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.kotlin, .java {
+  color: white;
+  background-color: #f88a02;
+  border-color: #f88a02;
+}
+
+.c, .cpp {
+  background-color: #94caff;
+  border-color: #94caff;
+}
+
+.glsl {
+  background-color: lightgrey;
+  border-color: lightgrey;
+}
