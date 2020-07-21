@@ -9,10 +9,11 @@ table {
 }
 
 .github-button {
-  margin-left: 20px;
   background-size: contain;
   background-color: white;
   background-image: url(https://user-images.githubusercontent.com/6047072/87868962-7aa19d00-c9ef-11ea-92e7-23813ee94ca2.png);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .lang {
@@ -20,6 +21,8 @@ table {
   border-width: 3px;
   border-style: solid;
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .python {
