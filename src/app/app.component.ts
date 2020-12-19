@@ -13,7 +13,7 @@ enum Language {
 }
 
 export interface Project {
-  github: string;
+  github?: string;
   name: string;
   description: string;
   link: string;
@@ -28,10 +28,9 @@ export interface Project {
 export class AppComponent {
   personalProjects: Project[] = [
     {
-      github: 'https://github.com/olliechick/codenames',
       name: 'Codenames',
       link: 'https://olliechick.co.nz/codenames',
-      description: ': a web version of the board for the board game Codenames',
+      description: ': a web version of the board for the board game Codenames (taken down for copyright reasons)',
       languages: [Language.TypeScript]
     },
     {
