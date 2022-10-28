@@ -8,10 +8,6 @@ table {
   line-height: 24px;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .lang {
   border-radius: 10px;
   border-width: 3px;
