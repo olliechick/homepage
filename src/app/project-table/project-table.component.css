@@ -8,12 +8,8 @@ table {
   line-height: 24px;
 }
 
-.github-button {
-  background-size: contain;
-  background-color: white;
-  background-image: url(https://user-images.githubusercontent.com/6047072/87868962-7aa19d00-c9ef-11ea-92e7-23813ee94ca2.png);
-  margin-top: 5px;
-  margin-bottom: 5px;
+a:hover {
+  text-decoration: underline;
 }
 
 .lang {
