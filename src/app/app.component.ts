@@ -30,7 +30,7 @@ export class AppComponent {
     {
       github: 'https://github.com/olliechick/scattergories',
       name: 'Scattergories',
-      link: 'https://olliechick.co.nz/scattergories',
+      link: 'https://scattergories.olliechick.co.nz',
       description: ': a web version of the board game Scattergories',
       languages: [Language.TypeScript]
     },
